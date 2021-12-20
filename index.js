@@ -24,7 +24,7 @@ function printString(myString) {
     if (k < 2) {
       return true;
     } else if (myString[k - 1] === myString[0]) {
-      return isPalindrome(myString.substring(1, l - 1));
+      return isPalindrome(myString.substring(1, k - 1));
     } else {
       return false;
     }
